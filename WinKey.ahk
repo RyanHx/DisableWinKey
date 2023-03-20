@@ -13,6 +13,8 @@ RWin::
 	}
 }
 
+F9::ExitApp
+
 isWindowFullScreen()
 {
 	;checks if the active window is full screen
