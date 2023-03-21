@@ -9,8 +9,14 @@ RWin::
 	global DisableWinKey
 	if (!DisableWinKey)
 	{
-		Send "{LWin}"		
+		Send "{LWin down}"		
 	}
+}
+
+LWin up::
+RWin up::
+{
+	Send "{LWin up}"
 }
 
 F9::ExitApp
